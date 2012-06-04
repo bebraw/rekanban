@@ -7,8 +7,7 @@
 
     "dependencies": {
         "express": "== 2.5.9",
-        "request": "== 2.9.202",
-        "funkit": "== 0.3.1"
+        "rest-sugar-client": "== 0.1.0"
     },
 
     "repository": {
