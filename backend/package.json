@@ -9,7 +9,7 @@
         "express": "== 2.5.9",
         "mongoose": "== 2.6.4",
         "mongoose-sugar": "== 0.1.2",
-        "rest-sugar": "== 0.1.5"
+        "rest-sugar": "== 0.1.6"
     },
 
     "repository": {
