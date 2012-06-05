@@ -12,7 +12,8 @@ function main() {
     // TODO: set up ssl for production
     var app = express.createServer();
 
-    client.api(BACKEND_URL + '?apikey=' + APIKEY, function(api) {
+    client.api(BACKEND_URL + '?apikey=' + APIKEY, function(err, api) {
+        if(err) return console.log(err);
         console.log('success');
         console.log(api);
 
@@ -24,7 +25,7 @@ function main() {
         */
 
         // initServer(api)
-    }, function(err) {console.log(err);});
+    });
 }
 
 function initServer(api) {
